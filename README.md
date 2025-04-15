@@ -7,7 +7,8 @@
 
 ## 网址
 
-<https://nexusadmin.thiz.top/>
+PROD (生产环境): <https://nexusadmin.thiz.top/>
+UAT (用户验收测试): <https://uat-nexusadmin.thiz.top/>
 
 ## 团队文档
 
@@ -17,27 +18,27 @@
 
 1. 克隆项目
 
-    ```bash
-    git clone https://github.com/chenzd123456/NexusAdmin.git
-    ```
+   ```bash
+   git clone https://github.com/chenzd123456/NexusAdmin.git
+   ```
 
 2. 安装依赖
 
-    ```bash
-    yarn 
-    ```
+   ```bash
+   yarn
+   ```
 
 3. 启动项目
 
-    ```bash
-    yarn dev
-    ```
+   ```bash
+   yarn dev
+   ```
 
 4. 打包项目
 
-    ```bash
-    yarn build
-    ```
+   ```bash
+   yarn build
+   ```
 
 ## 部署
 

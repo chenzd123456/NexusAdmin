@@ -7,8 +7,8 @@
 
 ## 网址
 
-PROD: <https://nexusadmin.thiz.top/>
-UAT: <https://uat-nexusadmin.thiz.top/>
+PROD (生产环境): <https://nexusadmin.thiz.top/>
+UAT (用户验收测试): <https://uat-nexusadmin.thiz.top/>
 
 ## 团队文档
 

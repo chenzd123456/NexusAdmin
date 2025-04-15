@@ -1,19 +1,57 @@
-# Nexus Admin
+# .
 
-Nexus Admin 是一学习项目。
+This template should help get you started developing with Vue 3 in Vite.
 
-## 使用方法
+## Recommended IDE Setup
 
-本项目使用 yarn 作为包管理器
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-### 克隆
+## Customize configuration
 
-TODO
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-### 安装依赖
+## Project Setup
 
+```sh
 yarn
+```
 
-### 运行
+### Compile and Hot-Reload for Development
 
-yarn run dev
+```sh
+yarn dev
+```
+
+### Compile and Minify for Production
+
+```sh
+yarn build
+```
+
+### Run Unit Tests with [Vitest](https://vitest.dev/)
+
+```sh
+yarn test:unit
+```
+
+### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
+
+```sh
+yarn test:e2e:dev
+```
+
+This runs the end-to-end tests against the Vite development server.
+It is much faster than the production build.
+
+But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
+
+```sh
+yarn build
+yarn test:e2e
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+yarn lint
+```

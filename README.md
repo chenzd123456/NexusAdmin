@@ -1,57 +1,40 @@
-# .
+# Nexus Admin
 
-This template should help get you started developing with Vue 3 in Vite.
+## 介绍
 
-## Recommended IDE Setup
+这是一个前端学习项目，使用了 Vue3、Vite、Pinia、Element-Plus 等技术栈。
+项目的目标是实现一个后台管理系统，包含用户管理、角色管理、权限管理等功能。
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 网址
 
-## Customize configuration
+<https://nexusadmin.thiz.top/>
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 团队文档
 
-## Project Setup
+[项目看板](https://github.com/users/chenzd123456/projects/8)
 
-```sh
-yarn
-```
+## 使用方法
 
-### Compile and Hot-Reload for Development
+1. 克隆项目
 
-```sh
-yarn dev
-```
+    ```bash
+    git clone https://github.com/chenzd123456/NexusAdmin.git
+    ```
 
-### Compile and Minify for Production
+2. 安装依赖
 
-```sh
-yarn build
-```
+    ```bash
+    yarn 
+    ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+3. 启动项目
 
-```sh
-yarn test:unit
-```
+    ```bash
+    yarn dev
+    ```
 
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
+4. 打包项目
 
-```sh
-yarn test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-yarn build
-yarn test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-yarn lint
-```
+    ```bash
+    yarn build
+    ```
